@@ -1,0 +1,13 @@
+import mongose from 'mongoose';
+
+ export async function startConection(){
+ await  mongose.connect('mongodb://localhost/photo-gallery-db', {
+        useNewUrlParser: true,
+        useFindAndModify: false
+    });
+
+    console.log('Database in connected');
+
+}
+
+//export default startConection;

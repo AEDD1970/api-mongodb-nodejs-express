@@ -10,4 +10,4 @@ import mongose from 'mongoose';
 
 }
 
-//export default startConection;
+//export default startConection esta es local  : mongodb://localhost/photo-gallery-db

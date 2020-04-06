@@ -2,7 +2,7 @@ import express from 'express';
 import morgan from 'morgan'
 import path from 'path'
 
-const app = express();
+export const app = express();
 
 import IndexRoutes from './routes/index'
 
@@ -18,6 +18,3 @@ app.use('/api', IndexRoutes);
 
 // this folder for this aplicaction be used arch public
 app.use('/uploades', express.static(path.resolve('uploades')))
-
-
-export default app;

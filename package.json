@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "clean": "rimraf dist",
-    "start": "nodemon src/index.ts",
+    "start": "node src/index.ts",
     "dev": "nodemon src/index.ts"
   },
   "keywords": [],

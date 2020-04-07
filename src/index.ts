@@ -1,4 +1,4 @@
-import {app} from './app';
+const app = require('./app');
 import {startConection} from './database'
 
 //app.listen(4000, ()=> {
